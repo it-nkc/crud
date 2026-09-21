@@ -99,7 +99,7 @@ export default async function StudentsPage() {
                                 <td className="px-4 py-3">
                                     <div className="flex gap-2">
                                         <a
-                                            href={`/students/${student.id}/edit`}
+                                            href={`/students/edit/${student.id}`}
                                             className="rounded-md bg-yellow-500 px-3 py-1.5 text-sm font-medium text-white hover:bg-yellow-600"
                                         >
                                             แก้ไข
